@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>кампуктер</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="app">
+      <h1>Управление компьютерами</h1>
+      <form id="computer-form">
+        <label for="model">Модель:</label>
+        <input type="text" id="model" required>
+        <label for="processor">Процессор:</label>
+        <input type="text" id="processor" required>
+        <label for="ram">RAM (ГБ):</label>
+        <input type="number" id="ram" required>
+        <label for="storage">Хранение данных:</label>
+        <input type="text" id="storage" required>
+        <button type="submit">Добавить компьютер</button>
+      </form>
+    <div id="computer-list"></div>
+  </div>
+      <script src="json.js"></script>
+      </body>
+</html>
